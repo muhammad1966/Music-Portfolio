@@ -1,0 +1,10 @@
+@font-face {
+  font-family: font;
+  src: url('./assets/Lemon-Regular.ttf');
+}
+
+:root{
+  --text-color: #D8BCAB;
+  --bg-color: #AD031E;
+  --acscent-color: #0a0d52;
+}

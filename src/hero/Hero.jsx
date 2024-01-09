@@ -11,8 +11,11 @@ const Hero = () => {
         <img src={logo} alt="logo" />
         <h3>Ella</h3>
       </div>
-      <div className='deco-1'></div>
+      <div className='deco-1'>
+      <span className='kas'></span>
+      </div>
       <IoMdMusicalNote className='music-note' size={120} color='#D8BCAB' />
+      
     </div>
   )
 }

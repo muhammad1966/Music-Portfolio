@@ -2,6 +2,9 @@ import React from 'react'
 import './hero.css';
 import { IoMdMusicalNote } from "react-icons/io";
 import { IoMusicalNote } from "react-icons/io5";
+import { FaMusic } from "react-icons/fa6";
+import HeroP from '../assets/Original1.png'
+
 
 import logo from '../assets/logo.png'
 
@@ -19,6 +22,17 @@ const Hero = () => {
       <IoMdMusicalNote className='music-note' size={120} color='#D8BCAB' />
       <IoMdMusicalNote className='music-note1' size={70} color='#D8BCAB' />
       <IoMusicalNote className='music-note2' size={40} color='#D8BCAB' />
+      <FaMusic className='music-note3' size={30} color='#D8BCAB' />
+      <div className='content'>
+        <div className='content-text'>
+            <h1>Hi there!</h1>
+        </div>
+
+        <div className='image-div'>
+            <img src={HeroP} alt="kip" />
+        </div>
+      </div>
+      
       
     </div>
   )

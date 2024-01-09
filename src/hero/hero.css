@@ -2,6 +2,7 @@
     background:var(--bg-color);
     height: 40rem;
     display: flex;
+    flex-direction: column;
     position: relative;
     
 }
@@ -44,7 +45,7 @@
     animation-timing-function:linear;
 }
 
-.music-note1{
+.music-note1, .music-note2, .music-note3{
     position: absolute;
     left:20rem ;
     top: 3.8rem;
@@ -55,18 +56,19 @@
     animation-timing-function:linear;
 }
 
-@keyframes enlarge {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.5);
-    }
-    100%{
-        transform: scale(1);
-        
-    }
+.music-note2{
+    top: 30rem;
+    left: 25rem;
+    animation-duration: 5s;
 }
+
+.music-note3{
+    top: 20rem;
+    left: 40rem;
+    animation-duration: 9s;
+}
+
+
 
 .kas{
     height:1rem;
@@ -77,13 +79,26 @@
     animation: glitter 15s ease-in infinite;
 }
 
-@keyframes glitter {
-    0%{
-        transform: translateY(0);
+.content{
+    display: flex;
+}
+
+.content-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
     
-    }
-    100%{
-        transform: translateY(29rem);
-        visibility: hidden;
-    }
+}
+
+.image-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.image-div img{
+    height: 100%;
+    
 }

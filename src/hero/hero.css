@@ -72,9 +72,23 @@
 
 .music-note4{
     top: 30rem;
-    left: 50rem;
+    left: 54rem;
     animation-duration: 9s;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function:linear;
+    z-index: 1;
 }
+
+.music-note5{
+    position: absolute;
+    top: -1rem;
+    left: 55rem;
+    z-index: 1;
+}
+
 
 
 
@@ -105,6 +119,14 @@
     margin-top: 0;
     font-size: 60px;
     margin-bottom: 20px;
+    z-index: 2;
+    
+}
+
+.content-text p{
+    font-family: font;
+    color: var(--text-color);
+    margin-top: 0;
     
 }
 

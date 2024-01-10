@@ -6,7 +6,7 @@
 :root{
   --text-color: #D8BCAB;
   --bg-color: #AD031E;
-  --acscent-color: #0a0d52;
+  --acscent-color: #010539;
 }
 
 @keyframes enlarge {
@@ -32,4 +32,16 @@
       transform: translateY(29rem);
       visibility: hidden;
   }
+}
+
+@keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
 }

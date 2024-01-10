@@ -46,7 +46,7 @@
     z-index: 1;
 }
 
-.music-note1, .music-note2, .music-note3{
+.music-note1, .music-note2, .music-note3, .music-note4{
     position: absolute;
     left:20rem ;
     top: 3.8rem;
@@ -67,6 +67,12 @@
 .music-note3{
     top: 20rem;
     left: 42rem;
+    animation-duration: 9s;
+}
+
+.music-note4{
+    top: 30rem;
+    left: 50rem;
     animation-duration: 9s;
 }
 

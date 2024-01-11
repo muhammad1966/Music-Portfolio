@@ -123,6 +123,13 @@
     
 }
 
+.hi-there{
+    animation-name: dance;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 .content-text p{
     font-family: font;
     color: var(--text-color);

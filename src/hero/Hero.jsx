@@ -29,7 +29,7 @@ const Hero = () => {
       <LuMusic3 className='music-note5' size={200} color='#D8BCAB' />
       <div className='content'>
         <div className='content-text'>
-            <h1>Hi there!</h1>
+            <h1 className='hi-there'>Hi there!</h1>
             <h1>I am Elizabeth</h1>
             <p>
                 A singer with a versatile and captivating voice.

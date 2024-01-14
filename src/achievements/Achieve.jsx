@@ -3,7 +3,16 @@ import './achieve.css'
 
 const Achieve = () => {
   return (
-    <div>Achieve</div>
+    <div className='acheive'>
+		<div>
+			<div></div>
+			<div></div>
+		</div>
+		<div>
+			<div></div>
+			<div></div>
+		</div>
+    </div>
   )
 }
 

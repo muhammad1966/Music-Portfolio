@@ -4,7 +4,16 @@ import './achieve.css'
 const Achieve = () => {
   return (
     <div className='acheive'>
-		<>
-			<d></d
+		<div>
+			<div></div>
+			<div></div>
+		</div>
+		<div>
+			<div></div>
+			<div></div>
+		</div>
+    </div>
+  )
+}
 
 export default Achieve

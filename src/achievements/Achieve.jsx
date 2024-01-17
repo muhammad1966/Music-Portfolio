@@ -6,7 +6,7 @@ const Achieve = () => {
   return (
     <div className='acheive'>
 		<div className='acheiv1'>
-			<div>
+			<div className='ach-photo'>
 				<img src={bl} alt="bl" />
 			</div>
 			<div></div>

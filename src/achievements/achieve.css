@@ -6,3 +6,8 @@
 .acheive1{
     display: flex;
 }
+
+.ach-photo{
+    display: flex;
+    background: var(--bg-color);
+}

@@ -4,7 +4,7 @@ import './achieve.css'
 const Achieve = () => {
   return (
     <div className='acheive'>
-		<div>
+		<div className='acheiv1'>
 			<div></div>
 			<div></div>
 		</div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './achieve.css'
-import bl from '../assets/image2.png'
+import bl from '../assets/img2.png'
 
 const Achieve = () => {
   return (

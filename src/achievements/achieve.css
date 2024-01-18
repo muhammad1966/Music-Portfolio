@@ -25,6 +25,8 @@
 
 .ach-text{
     display: flex;
+    border-radius:0 10px 10px 0;
+
     flex: 1;
     background: var(--acscent-color);
 }

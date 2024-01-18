@@ -6,12 +6,14 @@
 
 .acheive1{
     display: flex;
+    gap: 1rem;
 }
 
 .ach-photo{
     display: flex;
     height: 40rem;
     justify-content: center;
+    border-radius:10px 0 0 10px;
     flex: 1;
     background: var(--bg-color);
 }
@@ -24,4 +26,5 @@
 .ach-text{
     display: flex;
     flex: 1;
+    background: var(--acscent-color);
 }

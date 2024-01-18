@@ -9,5 +9,11 @@
 
 .ach-photo{
     display: flex;
+    flex: 1;
     background: var(--bg-color);
+}
+
+.ach-photo img{
+    height: 50%;
+    width: 50%;
 }

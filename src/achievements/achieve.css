@@ -13,6 +13,7 @@
     display: flex;
     height: 40rem;
     justify-content: center;
+    align-items: center;
     border-radius:10px 0 0 10px;
     flex: 1;
     background: var(--bg-color);
@@ -25,8 +26,15 @@
 
 .ach-text{
     display: flex;
+    padding: 0 30px;
     border-radius:0 10px 10px 0;
 
     flex: 1;
     background: var(--acscent-color);
+}
+
+.ach-text h1{
+    font-family: font;
+    color: var(--text-color1);
+    font-size: 100px;
 }

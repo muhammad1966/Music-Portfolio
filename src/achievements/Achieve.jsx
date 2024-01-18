@@ -11,7 +11,7 @@ const Achieve = () => {
 			</div>
 			<div className='ach-text'>
 				<h1>
-					
+					MUSIC IS LIFE
 				</h1>
 			</div>
 		</div>

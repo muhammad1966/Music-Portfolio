@@ -9,7 +9,7 @@ const Achieve = () => {
 			<div className='ach-photo'>
 				<img src={bl} alt="bl" />
 			</div>
-			<div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nostrum aspernatur architecto assumenda neque qui optio. Ipsum sint laudantium facere!</div>
+			<div className='ach-text'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nostrum aspernatur architecto assumenda neque qui optio. Ipsum sint laudantium facere!</div>
 		</div>
 		<div>
 			<div></div>

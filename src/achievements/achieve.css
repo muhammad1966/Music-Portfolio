@@ -1,6 +1,7 @@
 .acheive{
     display: flex;
     flex-direction: column;
+    margin: 0 1rem;
 }
 
 .acheive1{
@@ -9,11 +10,18 @@
 
 .ach-photo{
     display: flex;
+    height: 40rem;
+    justify-content: center;
     flex: 1;
     background: var(--bg-color);
 }
 
 .ach-photo img{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 60%;
+}
+
+.ach-text{
+    display: flex;
+    flex: 1;
 }

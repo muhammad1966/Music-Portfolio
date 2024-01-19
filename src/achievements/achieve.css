@@ -37,11 +37,11 @@
     font-family: font;
     color: var(--text-color1);
     font-size: 100px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .ach-text h3{
-    font-family: font;
+    font-family: sans-serif;
     color: var(--text-color);
     line-height: 30px;
     font-size: 25px;

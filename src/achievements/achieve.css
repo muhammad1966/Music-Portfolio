@@ -39,3 +39,10 @@
     font-size: 100px;
     margin-bottom: 1rem;
 }
+
+.ach-text h3{
+    font-family: font;
+    color: var(--text-color);
+    line-height: 30px;
+    font-size: 25px;
+}

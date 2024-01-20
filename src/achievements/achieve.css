@@ -26,9 +26,9 @@
 
 .ach-text{
     display: flex;
+    flex-direction: column;
     padding: 0 30px;
     border-radius:0 10px 10px 0;
-
     flex: 1;
     background: var(--acscent-color);
 }

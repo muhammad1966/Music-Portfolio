@@ -11,7 +11,7 @@ const Achieve = () => {
 			</div>
 			<div className='ach-text'>
 				<h1>
-					MUSIC IS LIFE
+					 IS LIFE
 				</h1>
 				<h3>
 				A universal language that transcends boundaries and speaks to the depths of our souls. It weaves emotions into melodies, turning moments into memories and echoing the rhythm of our journey. Whether joyous or melancholic, music is the heartbeat of our existence, orchestrating the symphony of our shared human experience.

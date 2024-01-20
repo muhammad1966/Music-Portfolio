@@ -40,6 +40,17 @@
     margin-bottom: 2rem;
 }
 
+.ach-text h1::before{
+    content: 'MUSIC ';
+    font-family: font;
+    color: var(--text-color1);
+    font-size: 100px;
+    animation-name: Dance;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 .ach-text h3{
     font-family: sans-serif;
     color: var(--text-color);

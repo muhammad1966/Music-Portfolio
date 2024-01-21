@@ -1,6 +1,8 @@
 import React from 'react'
 import './achieve.css'
 import bl from '../assets/img2.png'
+import { FaMusic } from "react-icons/fa6";
+
 
 const Achieve = () => {
   return (

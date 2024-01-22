@@ -10,7 +10,6 @@ const Achieve = () => {
 		<div className='acheive1'>
 			<div className='ach-photo'>
 				<img src={bl} alt="bl" />
-				<FaMusic className='music-note3' size={30} color='#D8BCAB' /> 
 			</div>
 			<div className='ach-text'>
 				<h1>

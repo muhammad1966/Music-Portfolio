@@ -22,8 +22,8 @@ const Achieve = () => {
 		</div>
 		<div>
 			<div></div>
-			<di></di
-			
+			<>
+
 		</div>
     </div>
   )

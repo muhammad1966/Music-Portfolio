@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     border-radius:10px 0 0 10px;
-    flex: 1;
+    
     background: var(--bg-color);
 }
 
@@ -27,9 +27,9 @@
 .ach-text{
     display: flex;
     flex-direction: column;
+    flex: 1;
     padding: 0 30px;
     border-radius:0 10px 10px 0;
-    flex: 1;
     background: var(--acscent-color);
 }
 
